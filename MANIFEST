@@ -1,0 +1,13 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+XS.xs
+fallback/const-xs.inc
+fallback/const-c.inc
+lib/PerlX/ArraySkip/XS.pm
+t/01basic.t
+
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

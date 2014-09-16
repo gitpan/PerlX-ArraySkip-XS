@@ -4,7 +4,6 @@ Upstream-Contact: Toby Inkster (TOBYINK) <tobyink@cpan.org>
 Source: https://metacpan.org/release/PerlX-ArraySkip-XS
 
 Files: CONTRIBUTING
- Changes
  INSTALL
  LICENSE
  Makefile.PL
@@ -15,7 +14,8 @@ Files: CONTRIBUTING
 Copyright: Unknown
 License: Unknown
 
-Files: META.json
+Files: Changes
+ META.json
  META.yml
  dist.ini
  doap.ttl

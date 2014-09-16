@@ -1,14 +1,14 @@
 NAME
-    PerlX::Maybe::XS - XS backend for PerlX::Maybe
+    PerlX::ArraySkip::XS - XS backend for PerlX::ArraySkip
 
 SYNOPSIS
-      use PerlX::Maybe;
+      use PerlX::ArraySkip;
 
 DESCRIPTION
     Nothing to see here; move along.
 
 SEE ALSO
-    PerlX::Maybe.
+    PerlX::ArraySkip.
 
 AUTHOR
     Toby Inkster <tobyink@cpan.org>.
@@ -16,8 +16,8 @@ AUTHOR
 COPYRIGHT AND LICENCE
     This software is copyright (c) 2013 by Toby Inkster.
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    This is free software; you can redistribute it and/or modify it under the
+    same terms as the Perl 5 programming language system itself.
 
 DISCLAIMER OF WARRANTIES
     THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED

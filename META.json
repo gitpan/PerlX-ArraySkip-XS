@@ -1,12 +1,13 @@
 {
    "abstract" : "XS backend for PerlX::ArraySkip",
    "author" : [
-      "Toby Inkster <tobyink@cpan.org>"
+      "Toby Inkster (TOBYINK) <tobyink@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Inkt::Profile::TOBYINK version 0.021, CPAN::Meta::Converter version 2.140640",
+   "keywords" : [],
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -15,25 +16,55 @@
    "name" : "PerlX-ArraySkip-XS",
    "no_index" : {
       "directory" : [
+         "eg",
+         "examples",
+         "inc",
          "t",
-         "inc"
+         "xt"
       ]
    },
+   "optional_features" : {},
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : "6.17"
+         },
+         "suggests" : {
+            "ExtUtils::Constant" : "0"
          }
       },
       "runtime" : {
-         "requires" : {}
+         "requires" : {
+            "perl" : "5.006000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.47"
+         }
+      }
+   },
+   "provides" : {
+      "PerlX::ArraySkip::XS" : {
+         "file" : "lib/PerlX/ArraySkip/XS.pm",
+         "version" : "0.003"
       }
    },
    "release_status" : "stable",
-   "version" : "0.002"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-ArraySkip-XS"
+      },
+      "homepage" : "https://metacpan.org/release/PerlX-ArraySkip-XS",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tobyink/p5-perlx-arrayskip-xs.git",
+         "web" : "https://github.com/tobyink/p5-perlx-arrayskip-xs"
+      },
+      "x_identifier" : "http://purl.org/NET/cpan-uri/dist/PerlX-ArraySkip-XS/project"
+   },
+   "version" : "0.003"
 }
